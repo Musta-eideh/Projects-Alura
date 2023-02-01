@@ -1,0 +1,5 @@
+let listFilms = ['https://i.ytimg.com/vi/pgodQwuynaY/maxresdefault.jpg', 'https://lumiere-a.akamaihd.net/v1/images/au_poster_marvel_venom_f7181c32.jpeg?region=0,0,540,810', 'https://m.media-amazon.com/images/I/81rpB-3qwoL._AC_SL1500_.jpg', 'https://lionsgate.brightspotcdn.com/59/e8/576c91ae47e4aa7fd6240dc48674/john-wick-chapter-1-movies-poster-01.jpg', 'https://lumiere-a.akamaihd.net/v1/images/revenant_584x800_6d98d1b6.jpeg', 'https://m.media-amazon.com/images/I/81yLT1Bn3-L._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_.jpg', 'https://m.media-amazon.com/images/M/MV5BYjk3ZWQ4ZmMtNzM1OS00NDQxLWJmZjctNzFlODAyODRkMjcyXkEyXkFqcGdeQXVyMjEwODIzODA@._V1_.jpg', 'https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg']
+
+for (var i = 0; i < listFilms.length; i++) {
+    document.write("<img src=" + listFilms[i] + ">")
+};
